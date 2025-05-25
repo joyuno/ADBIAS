@@ -10,6 +10,10 @@
 |      |      |            |        |
 |      |      |            |        |
 
+<a href="https://github.com/leehee16/ADBIAS/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=leehee16/ADBIAS" />
+</a>
+
 ## Project Overview
 
 **ADBIAS** is a research framework designed to improve the fairness and reliability of **Automated Essay Scoring (AES)** by explicitly identifying and correcting biases in multiple large language models (LLMs). Traditional AES systems that rely on a single LLM can produce inconsistent or biased evaluations. ADBIAS tackles this by using **multiple LLMs as “evaluators”** and adjusting their scoring tendencies so that the final essay scores are more accurate and unbiased. In essence, ADBIAS quantitatively measures each model’s bias and incorporates that information into a combined, bias-aware scoring process. This approach leads to more **reliable, fair, and interpretable** essay evaluations than single-model or naive ensemble methods.
