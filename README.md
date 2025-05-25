@@ -14,15 +14,24 @@
 
 **ADBIAS** is a research framework designed to improve the fairness and reliability of **Automated Essay Scoring (AES)** by explicitly identifying and correcting biases in multiple large language models (LLMs). Traditional AES systems that rely on a single LLM can produce inconsistent or biased evaluations. ADBIAS tackles this by using **multiple LLMs as “evaluators”** and adjusting their scoring tendencies so that the final essay scores are more accurate and unbiased. In essence, ADBIAS quantitatively measures each model’s bias and incorporates that information into a combined, bias-aware scoring process. This approach leads to more **reliable, fair, and interpretable** essay evaluations than single-model or naive ensemble methods.
 
-Empirical results on standard AES benchmarks (ASAP and ASAP++) demonstrate ADBIAS’s effectiveness: it **improves scoring accuracy by \~6.4% (Quadratic Weighted Kappa)** and **reduces bias variance by \~57.9%** compared to baseline models. By modeling biases explicitly and aggregating multiple perspectives, ADBIAS provides a **more consistent and transparent** scoring framework for educational assessments.
+<table>
+  <tr>
+    <td><img src="./assets/figure_mean_qwk.png" alt="Mean QWK" width="400"/></td>
+    <td><img src="./assets/figure_mean_severity.png" alt="Mean Severity" width="400"/></td>
+  </tr>
+</table>
+
+ results on standard AES benchmarks (ASAP and ASAP++) demonstrate ADBIAS’s effectiveness: it **improves scoring accuracy by \~6.4% (Quadratic Weighted Kappa)** and **reduces bias variance by \~57.9%** compared to baseline models. By modeling biases explicitly and aggregating multiple perspectives, ADBIAS provides a **more consistent and transparent** scoring framework for educational assessments.
 
 ## Key Features and Architecture
 ![ADBIAS Pipeline](./assets/adbias_pipeline.png)  
-*Figure 1. The three-stage bias-aware scoring pipeline in ADBIAS.*
+*The three-stage bias-aware scoring pipeline in ADBIAS.*
 
 ADBIAS introduces a **three-stage evaluation pipeline** that addresses model bias at each step:
 
 1. **Multi-LLM Evaluation:**  Instead of a single model, ADBIAS uses *multiple LLMs* (e.g., GPT-4, Claude, LLaMA, etc.) to independently score an essay. Each model is given the same essay along with a scoring **rubric**, and each produces **trait-level scores** (e.g., for Content, Organization, Grammar, etc.) as well as a short **rationale** explaining each score. All LLMs use a consistent prompting format and deterministic settings (e.g. temperature = 0) to ensure the scores are directly comparable. This multi-LLM evaluation diversifies the assessment and provides a set of peer “opinions” on the essay’s quality across traits.
+
+![figure_MFRM](./assets/figure_MFRM.pdf)  
 
 2. **Bias Quantification via MFRM:** Using the trait-specific scores from all LLMs, ADBIAS applies a **Many-Facet Rasch Model (MFRM)** to quantitatively estimate each model’s **scoring bias or severity**. In practice, this step treats each LLM as a “rater” and each trait score as an observation, and it computes a bias parameter (often called a *severity parameter*) for each model. These bias parameters (converted into convenient metrics like odds ratios) reflect systematic tendencies – for example, one model might consistently give higher Organization scores than others. The calculated bias metrics are then **fed into the next stage** as additional metadata. By calibrating the scores with MFRM, we obtain a bias-adjustment factor for each model-trait, ensuring that no single model’s leniency or harshness unfairly skews the results.
 
