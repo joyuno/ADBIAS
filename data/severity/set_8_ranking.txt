@@ -1,0 +1,6 @@
+conventions: gemini(1.0797) > claude(1.0323) > gpt(1.0153)
+ideas: gemini(1.1409) > gpt(1.0005) > claude(0.9652)
+organization: gemini(1.061) > claude(1.0358) > gpt(1.01)
+sentence fluency: claude(1.0596) > gemini(1.025) > gpt(1.02)
+voice: gemini(1.0687) > gpt(1.0316) > claude(0.9145)
+word choice: gemini(1.0745) > claude(1.0249) > gpt(0.996)

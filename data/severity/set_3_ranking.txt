@@ -1,0 +1,4 @@
+content: claude(1.095) > gemini(0.9782) > gpt(0.9592)
+language: claude(1.188) > gemini(1.0306) > gpt(0.8526)
+narrativity: claude(1.1249) > gemini(1.0955) > gpt(0.8061)
+prompt adherence: claude(1.0872) > gpt(0.964) > gemini(0.9308)

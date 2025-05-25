@@ -1,0 +1,4 @@
+conventions: gemini(1.1446) > claude(1.0914) > gpt(0.8994)
+ideas: gemini(1.1179) > claude(1.0127) > gpt(0.938)
+organization: gemini(1.0524) > claude(1.0451) > gpt(0.9947)
+style: claude(1.1066) > gemini(1.0295) > gpt(0.9589)

@@ -1,0 +1,7 @@
+Method,Average_QWK,Beta_Variance,Mean_|Beta|
+Meta‑LLM (β‑Aware),0.46,,
+Claude 3.5,0.4709,0.00128,0.0668
+GPT‑4o,0.3978,0.00275,0.0593
+Gemini 2.5,0.4197,0.00163,0.0763
+Llama‑4,0.4326,0.00143,0.0698
+Unweighted Ensemble,0.447,,

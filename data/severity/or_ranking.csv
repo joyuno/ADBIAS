@@ -1,0 +1,109 @@
+set,trait,llm,OR
+1,content,claude,1.0495
+1,content,gemini,1.0178
+1,content,gpt,0.9954
+1,conventions,gemini,1.1243
+1,conventions,claude,1.0549
+1,conventions,gpt,0.9493
+1,organization,claude,1.0883
+1,organization,gpt,1.0564
+1,organization,gemini,0.9942
+1,sentence fluency,claude,1.0879
+1,sentence fluency,gemini,1.0412
+1,sentence fluency,gpt,0.985
+1,word choice,gemini,1.0818
+1,word choice,claude,1.0574
+1,word choice,gpt,0.9624
+2,content,gemini,1.1092
+2,content,claude,1.0564
+2,content,gpt,0.9528
+2,conventions,gemini,1.1734
+2,conventions,claude,1.0743
+2,conventions,gpt,0.8818
+2,organization,claude,1.0956
+2,organization,gemini,1.0676
+2,organization,gpt,0.9342
+2,sentence fluency,gemini,1.0972
+2,sentence fluency,claude,1.0695
+2,sentence fluency,gpt,0.9292
+2,word choice,gemini,1.1262
+2,word choice,claude,1.0663
+2,word choice,gpt,0.9084
+3,content,claude,1.095
+3,content,gemini,0.9782
+3,content,gpt,0.9592
+3,language,claude,1.188
+3,language,gemini,1.0306
+3,language,gpt,0.8526
+3,narrativity,claude,1.1249
+3,narrativity,gemini,1.0955
+3,narrativity,gpt,0.8061
+3,prompt adherence,claude,1.0872
+3,prompt adherence,gpt,0.964
+3,prompt adherence,gemini,0.9308
+4,content,gemini,1.0681
+4,content,claude,1.0324
+4,content,gpt,0.9589
+4,language,claude,1.1507
+4,language,gemini,1.1235
+4,language,gpt,0.8592
+4,narrativity,gemini,1.1389
+4,narrativity,claude,1.053
+4,narrativity,gpt,0.8836
+4,prompt adherence,claude,1.0615
+4,prompt adherence,gpt,0.969
+4,prompt adherence,gemini,0.9648
+5,content,gemini,1.0906
+5,content,claude,1.0135
+5,content,gpt,0.9245
+5,language,claude,1.1094
+5,language,gemini,1.1065
+5,language,gpt,0.8604
+5,narrativity,gemini,1.0855
+5,narrativity,claude,1.0432
+5,narrativity,gpt,0.9115
+5,prompt adherence,gemini,1.0869
+5,prompt adherence,claude,0.9893
+5,prompt adherence,gpt,0.9361
+6,content,claude,1.0756
+6,content,gpt,1.011
+6,content,gemini,0.8829
+6,language,claude,1.1173
+6,language,gemini,0.9783
+6,language,gpt,0.9673
+6,narrativity,claude,1.0702
+6,narrativity,gpt,0.9913
+6,narrativity,gemini,0.9823
+6,prompt adherence,claude,1.0392
+6,prompt adherence,gpt,1.0181
+6,prompt adherence,gemini,0.8979
+7,conventions,gemini,1.1446
+7,conventions,claude,1.0914
+7,conventions,gpt,0.8994
+7,ideas,gemini,1.1179
+7,ideas,claude,1.0127
+7,ideas,gpt,0.938
+7,organization,gemini,1.0524
+7,organization,claude,1.0451
+7,organization,gpt,0.9947
+7,style,claude,1.1066
+7,style,gemini,1.0295
+7,style,gpt,0.9589
+8,conventions,gemini,1.0797
+8,conventions,claude,1.0323
+8,conventions,gpt,1.0153
+8,ideas,gemini,1.1409
+8,ideas,gpt,1.0005
+8,ideas,claude,0.9652
+8,organization,gemini,1.061
+8,organization,claude,1.0358
+8,organization,gpt,1.01
+8,sentence fluency,claude,1.0596
+8,sentence fluency,gemini,1.025
+8,sentence fluency,gpt,1.02
+8,voice,gemini,1.0687
+8,voice,gpt,1.0316
+8,voice,claude,0.9145
+8,word choice,gemini,1.0745
+8,word choice,claude,1.0249
+8,word choice,gpt,0.996
