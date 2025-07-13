@@ -4,8 +4,8 @@
 
 | name | GitHub ID | email |
 |------|------------|--------|
-|이호진  |leehee16|hojlgg4@gmail.com|
-|      |            |        |
+|이호진|leehee16|hojlgg4@gmail.com|
+|강기훈|kanggihoon|rlgns0374@gmail.com|
 |      |            |        |
 |      |            |        |
 |      |            |        |
