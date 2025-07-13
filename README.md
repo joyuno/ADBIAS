@@ -2,13 +2,13 @@
 
 ## 👤 Authors
 
-| name | role | GitHub ID | email |
-|------|------|------------|--------|
-|      |      |            |        |
-|      |      |            |        |
-|      |      |            |        |
-|      |      |            |        |
-|      |      |            |        |
+| name | GitHub ID | email |
+|------|------------|--------|
+|이호진  |leehee16|hojlgg4@gmail.com|
+|      |            |        |
+|      |            |        |
+|      |            |        |
+|      |            |        |
 
 <a href="https://github.com/leehee16/ADBIAS/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=leehee16/ADBIAS" />
