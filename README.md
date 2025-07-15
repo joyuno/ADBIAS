@@ -10,9 +10,7 @@
 |      |            |        |
 |      |            |        |
 
-<a href="https://github.com/leehee16/ADBIAS/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=leehee16/ADBIAS" />
-</a>
+![contributors badge](https://readme-contribs.as93.net/contributors/leehee16/ADBIAS)
 
 ## Project Overview
 
