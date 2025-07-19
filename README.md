@@ -6,7 +6,7 @@
 |------|------------|--------|
 |이호진|leehee16|hojlgg4@gmail.com|
 |강기훈|kanggihoon|rlgns0374@gmail.com|
-|      |            |        |
+|양승현|sseunghyun9|pxd1237@gmail.com|
 |      |            |        |
 |      |            |        |
 
