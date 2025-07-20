@@ -8,7 +8,7 @@
 |강기훈|kanggihoon|rlgns0374@gmail.com|
 |양승현|sseunghyun9|pxd1237@gmail.com|
 |이의진|leeeug.da|leeeug.da@gmail.com|
-|      |            |        |
+|장윤호|joyuno|joy981017@gmail.com|
 
 ![contributors badge](https://readme-contribs.as93.net/contributors/leehee16/ADBIAS)
 
